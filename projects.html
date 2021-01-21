@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="CSS/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/projectsStyle.css">
+    <script type="text/javascript" src="JS/main.js"></script>
+</head>
+<body>
+    <!-- Main header and navbar -->
+    <header class="header">
+        <div class="container">
+            <div class="headerWrapper">
+                <img src="Images/ProfilePic_Cropped.jpg" alt="Profile Picture">
+                <h1>
+                    Brandon Michael Smith
+                    <br>
+                    McGill University
+                    <br>
+                    Bachelor of Science - Software Engineering Major | Physics Minor
+                </h1>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li class="darkModeButtonLI"><button id="darkModeButton" onclick="toggleDarkMode()">Dark Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Projects content begins here -->
+    <section id="projectsSection">
+        <div class="projectsContainer">
+            <h3 id="GameEngineHeader">
+                Game Engine <a href="https://github.com/Brandon-Smith-457/GameEngine" target="_blank">(Github)</a>
+            </h3>
+            <h4>
+                (Nov 2019 – Present) (In development)
+            </h4>
+            <p id="GameEngineParagraph">
+                - A platform independent (Windows, Mac, Linux, WebBrowser, Android) generalized game engine with support for multiple different graphics API's (OpenGL, DirectX, Metal, Vulkan). Written in C++<br>
+                - Current Main Systems:
+                <div class="indent">- Rendering engine (OpenGL) | Event handling systems | Logging systems (spdlog) | Window handling (GLFW)</div>
+            </p>
+            <br>
+            <h3 id="PhysicsEngineHeader">
+                Physics Engine <a href="https://github.com/Brandon-Smith-457/PhysicsEngine" target="_blank">(Github)</a>
+            </h3>
+            <h4>
+                (Oct 2019 – Present) (In development)
+            </h4>
+            <p id="PhysicsEngineParagraph">
+                - A Rigidbody physics engine intended to interface with my Game Engine. Written in C++<br>
+                - Should remain agnostic enough to interface with any rendering engine
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- Main footer -->
+    <footer class="footer">
+        <div class="container">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/brandon-smith-comp-sci-soft/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/Brandon-Smith-457" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

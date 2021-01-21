@@ -1,0 +1,19 @@
+.projectsContainer {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#projectsSection h3 {
+    text-decoration: underline;
+}
+
+#projectsSection p {
+    padding-left: 20px;
+}
+
+.indent {
+    padding-left:40px;
+}

@@ -1,0 +1,15 @@
+.workContainer {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#workSection h3 {
+    text-decoration: underline;
+}
+
+#workSection p {
+    padding-left: 20px;
+}

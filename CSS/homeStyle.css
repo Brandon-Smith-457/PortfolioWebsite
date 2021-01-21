@@ -1,0 +1,15 @@
+.aboutContainer {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#aboutMeSection h3 {
+    text-decoration: underline;
+}
+
+#aboutMeSection p {
+    padding-left: 20px;
+}

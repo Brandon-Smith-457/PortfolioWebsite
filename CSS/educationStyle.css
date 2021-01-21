@@ -1,0 +1,30 @@
+.educationContainer {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 75px;
+}
+
+#educationSection h2 {
+    padding-bottom: 10px;
+}
+
+#educationSection h3 {
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+#educationSection h4 {
+    padding-left:20px;
+}
+
+#educationSection p {
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.indentNormal1 {
+    padding-left: 60px;
+    line-height: 1em;
+}
